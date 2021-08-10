@@ -1,0 +1,7 @@
+com\desafio\restapi\dao\PersonDAO.class
+com\desafio\restapi\resources\Exceptions\ResourceNotFoundException.class
+com\desafio\restapi\resources\Exceptions\DatabaseException.class
+com\desafio\restapi\resources\ApplicationConfig.class
+com\desafio\restapi\resources\Exceptions\ObjectAlreadyExistException.class
+com\desafio\restapi\models\Person.class
+com\desafio\restapi\resources\PersonResource.class
