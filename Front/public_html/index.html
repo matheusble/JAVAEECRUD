@@ -52,11 +52,11 @@
             </thead>
             <tbody>
                 <tr ng-repeat="person in persons track by $index">
-                    <td ng-dblclick="editar(person)">{{produto.id}}</td>
-                    <td ng-dblclick="editar(person)">{{produto.descricao}}</td>
-                    <td ng-dblclick="editar(person)">{{produto.preco}}</td>
-                    <td ng-dblclick="editar(person)">{{produto.descricao}}</td>
-                    <td ng-dblclick="editar(person)">{{produto.preco}}</td>
+                    <td ng-dblclick="editar(person)">{{person.id}}</td>
+                    <td ng-dblclick="editar(person)">{{person.descricao}}</td>
+                    <td ng-dblclick="editar(person)">{{person.preco}}</td>
+                    <td ng-dblclick="editar(person)">{{person.descricao}}</td>
+                    <td ng-dblclick="editar(person)">{{person.preco}}</td>
                     <td><a href="" ng-click="editar(person)">[Editar]</a></td>
                     <td><a href="" ng-click="excluir(person)">[Excluir]</a></td>
                 </tr>
